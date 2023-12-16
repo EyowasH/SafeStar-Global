@@ -6,7 +6,7 @@ import BlogsI from "../BlogI";
 const Import = () => {
   return (
     <section>
-      <main className="bg-slate-200 dark:bg-slate-900 dark:text-white px-4">
+     <main className="bg-slate-200 dark:bg-slate-900 dark:text-white px-4">
         <Navbar />
         <div className="sm:mt-36 mt-20 px-6 ">
           <h1 className="flex justify-center text-transparent bg-clip-text hover:bg-red-600 bg-red-500 to-emerald-500 font-extrabold sm:text-6xl text-4xl text-center">
@@ -35,9 +35,10 @@ const Import = () => {
             <div className="w-[70%]  h-[2px] bg-gradient-to-r from-blue-400 to-violet-500 my-8"></div>
           </section>
         </div>
-        <BlogsI />
-      <Footer />
+        
       </main>
+      <BlogsI />
+      <Footer />
     </section>
   );
 };

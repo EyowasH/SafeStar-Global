@@ -16,7 +16,8 @@ const Blogs = () => {
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/06/YAT-Sesame.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                
               />
             </div>
 
@@ -40,7 +41,7 @@ const Blogs = () => {
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-kidney-beans.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -64,7 +65,7 @@ const Blogs = () => {
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-soya-beans.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -90,7 +91,7 @@ const Blogs = () => {
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-lupin-bean.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -114,7 +115,7 @@ const Blogs = () => {
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-mung-beans.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -137,7 +138,7 @@ const Blogs = () => {
               <img
                 src="https://t3.gstatic.com/images?q=tbn:ANd9GcRBhQPUVWbQwjPsCZeFMua9shpLV9O97gTgaigYdW85AcBiwqAa"
                 alt="No image"
-                className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 

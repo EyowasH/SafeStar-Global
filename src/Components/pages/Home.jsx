@@ -5,6 +5,7 @@ import BannerDetails from '../BannerDetails'
 import CallToAction from '../CallToAction'
 import Footer from '../Footer'
 
+
 const Home = () => {
   return (
     <>
