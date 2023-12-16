@@ -158,7 +158,7 @@ const BlogsI = () => {
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
                 Concrete Mixer
               </h1>
             </div>
@@ -177,7 +177,7 @@ const BlogsI = () => {
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
                 Concrete Mixer
               </h1>
             </div>
@@ -196,7 +196,7 @@ const BlogsI = () => {
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
                 Towing Mixer
               </h1>
             </div>
@@ -215,7 +215,7 @@ const BlogsI = () => {
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
                 Diesel Generators
               </h1>
             </div>
