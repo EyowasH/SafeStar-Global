@@ -22,13 +22,13 @@ const Export = () => {
           <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
             <div className="p-2">
               <div className="text-[#dbd6d6] my-3">
-                <p className="text-justify leading-7 w-11/12 mx-auto my-3">
+                <p className="text-justify sm:lg:text-start lg:leading-7 lg:w-11/12 mx-auto my-3">
                   Facilitating global market access, we connect Ethiopian
                   producers to international networks. Our commitment lies in
                   providing unwavering support to importers worldwide, ensuring
                   a seamless and reliable partnership.
                 </p>
-                <p className="text-justify leading-7 w-11/12 mx-auto">
+                <p className="text-justify sm:lg:text-start lg:leading-7 lg:w-11/12 mx-auto ">
                   Staying connected with farmers across Ethiopia, we extend
                   international market opportunities to local producers.
                   Additionally, we offer steadfast support to importers abroad,

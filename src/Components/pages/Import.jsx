@@ -76,14 +76,14 @@ const Import = () => {
           <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
             <div className="p-2">
               <div className="text-[#dbd6d6] my-3">
-                <p className="text-justify leading-7 w-11/12 mx-auto my-3">
+                <p className="text-justify sm:lg:text-start lg:leading-7 lg:w-11/12 mx-auto my-3">
                   Spanning requirements analysis through delivery, we specialize
                   in importing tools essential for contractors, builders, and
                   business owners. Our seamless process ensures a reliable
                   supply chain, to diverse construction and business
                   needs.
                 </p>
-                <p className="text-justify leading-7 w-11/12 mx-auto">
+                <p className="text-justify sm:lg:text-start lg:leading-7 lg:w-11/12 mx-auto ">
                   We hope for the best and prepare for the worst. Fire safety
                   equipment is hopefully something you’ll never have to use. We
                   provide equipment, training and maintenance to ensure that you
