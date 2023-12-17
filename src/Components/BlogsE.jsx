@@ -3,29 +3,29 @@ import React, { useEffect } from "react";
 const Blogs = () => {
   return (
     <main data-aos="fade-up" data-aos-offset="200">
-      <section className="container mb-10 py-8">
+      <section className="container mb-10 py-8 ">
         <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
           Export Products{" "}
         </h1>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
+            className="rounded-xl  p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/06/YAT-Sesame.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="rounded-xl mx-auto h-[250px] w-full drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:rounded-xl hover:skew-x-2 hover:scale-110"
                 
               />
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold  text-red-600">
+              <h1 className="line-clamp-1 text-xl font-bold  text-blue-600">
                 Sesame
               </h1>
-              <p className="line-clamp-3">
+              <p className="line-clamp-3 ">
                 Sesame, often used as food and flavoring is also cultivated for
                 its oil content. It is sometimes referred to as bean and is
                 found in most of the tropical, subtropical, and southern
@@ -35,18 +35,18 @@ const Blogs = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-kidney-beans.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-red-600">
+              <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 Kidney Bean
               </h1>
               <p className="line-clamp-3">
@@ -59,18 +59,18 @@ const Blogs = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-soya-beans.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-red-600">
+              <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 Soybean
               </h1>
               <p className="line-clamp-3">
@@ -85,18 +85,18 @@ const Blogs = () => {
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-lupin-bean.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-red-600">
+              <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 Lupin Bean
               </h1>
               <p className="line-clamp-2">
@@ -109,18 +109,18 @@ const Blogs = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-mung-beans.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-red-600">
+              <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 Mung Bean{" "}
               </h1>
               <p className="line-clamp-2">
@@ -132,18 +132,18 @@ const Blogs = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://t3.gstatic.com/images?q=tbn:ANd9GcRBhQPUVWbQwjPsCZeFMua9shpLV9O97gTgaigYdW85AcBiwqAa"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-red-600">
+              <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 How to grow your business
               </h1>
               <p className="line-clamp-2">

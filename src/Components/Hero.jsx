@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 // import Stars from "../../images/stars.png";
 import { motion } from "framer-motion";
 
-const Herosection = () => {
+const Header = () => {
+  // const { theme, handleTheme } = useContext(ThemeBgContext);
   return (
     <div className="font-poppins overflow-x-hidden">
       <div className="relative  pt-[120px] pb-[100px] lg:pt-[150px] bg-gradient-to-br from-blue-100 ">
@@ -165,4 +166,4 @@ const Herosection = () => {
   );
 };
 
-export default Herosection;
+export default Header;
