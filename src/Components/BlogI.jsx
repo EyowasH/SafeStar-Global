@@ -10,13 +10,13 @@ const BlogsI = () => {
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
+            className="  rounded-xl p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/1-29-e1584723571223.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -33,13 +33,13 @@ const BlogsI = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className="  rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/red-fire-extinguisher-lot-1661377-1024x683.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
             <div className="space-y-3 py-3">
@@ -54,13 +54,13 @@ const BlogsI = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className="  rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/06/YAT-Industrial-fire-hose-reel.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
             <div className="space-y-3 py-3">
@@ -77,13 +77,13 @@ const BlogsI = () => {
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
+            className="  rounded-xl p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Fire-ALarm-import.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
             <div className="space-y-3 py-3">
@@ -98,13 +98,13 @@ const BlogsI = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className="  rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-fire-pump.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
             <div className="space-y-3 py-3">
@@ -119,13 +119,13 @@ const BlogsI = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className="  rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
           >
             <div className="overflow-hidden">
               <img
                 src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-fire-sprinkel.jpg"
                 alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
             <div className="space-y-3 py-3">
@@ -145,82 +145,82 @@ const BlogsI = () => {
             Construction Equipment and Spare Parts
           </h1>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4">
-          <div
-            id="card"
-            className="p-4 shadow-md  transition-all duration-500 hover:shadow-xl dark:bg-slate-950 border-2"
-          >
-            <div className="overflow-hidden">
-              <img
-                src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-fire-pump.jpg"
-                alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
-              />
+            <div
+              id="card"
+              className="  rounded-xl p-4 shadow-md  transition-all duration-500 hover:shadow-xl dark:bg-slate-950 border-2"
+            >
+              <div className="overflow-hidden">
+                <img
+                  src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-fire-pump.jpg"
+                  alt="No image"
+                  className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                />
+              </div>
+
+              <div className="space-y-3 py-3">
+                <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
+                  Concrete Mixer
+                </h1>
+              </div>
             </div>
 
-            <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
-              </h1>
+            <div
+              id="card"
+              className="  rounded-xl p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 border-2"
+            >
+              <div className="overflow-hidden">
+                <img
+                  src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Fire-ALarm-import.jpg"
+                  alt="No image"
+                  className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                />
+              </div>
+
+              <div className="space-y-3 py-3">
+                <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
+                  Concrete Mixer
+                </h1>
+              </div>
+            </div>
+
+            <div
+              id="card"
+              className="  rounded-xl p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 border-2"
+            >
+              <div className="overflow-hidden">
+                <img
+                  src="https://yatindustrial.com/wp-content/uploads/2020/06/YAT-Industrial-fire-hose-reel.jpg"
+                  alt="No image"
+                  className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                />
+              </div>
+
+              <div className="space-y-3 py-3">
+                <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
+                  Towing Mixer
+                </h1>
+              </div>
+            </div>
+
+            <div
+              id="card"
+              className="  rounded-xl p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 border-2"
+            >
+              <div className="overflow-hidden ">
+                <img
+                  src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-fire-sprinkel.jpg"
+                  alt="No image"
+                  className="  rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110  "
+                />
+              </div>
+
+              <div className="space-y-3 py-3">
+                <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
+                  Diesel Generators
+                </h1>
+              </div>
             </div>
           </div>
-
-          <div
-            id="card"
-            className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 border-2"
-          >
-            <div className="overflow-hidden">
-              <img
-                src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Fire-ALarm-import.jpg"
-                alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
-              />
-            </div>
-
-            <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
-              </h1>
-            </div>
-          </div>
-
-          <div
-            id="card"
-            className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 border-2"
-          >
-            <div className="overflow-hidden">
-              <img
-                src="https://yatindustrial.com/wp-content/uploads/2020/06/YAT-Industrial-fire-hose-reel.jpg"
-                alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
-              />
-            </div>
-
-            <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Towing Mixer
-              </h1>
-            </div>
-          </div>
-
-          <div
-            id="card"
-            className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 border-2"
-          >
-            <div className="overflow-hidden ">
-              <img
-                src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-fire-sprinkel.jpg"
-                alt="No image"
-                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110  "
-              />
-            </div>
-
-            <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Diesel Generators
-              </h1>
-            </div>
-          </div>
-        </div>
         </div>
       </section>
       <section className="container mb-10 py-8"></section>
