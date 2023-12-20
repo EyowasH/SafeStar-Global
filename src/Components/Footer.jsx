@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className=" bg-black">
+    <div className="">
       <section className="mx-auto max-w-[1200px] text-white">
         <div className=" grid py-5 md:grid-cols-3">
           <div className=" px-2 py-8 ">

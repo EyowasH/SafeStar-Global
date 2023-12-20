@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import CallToAction from "../CallToAction";
 import Footer from "../Footer";
+import Possibility from "../possibility/Possibility";
 
 const About = () => {
   return (
@@ -37,7 +38,7 @@ const About = () => {
           />
         </div>
       </div>
-
+<Possibility/>
       <div className="flex justify-end ml-[30%] w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
       <div
         className="bg-[#201d27] h-full  px-10 md:px-40 
