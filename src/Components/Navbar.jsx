@@ -8,7 +8,7 @@ const Navbar = () => {
   console.log(open);
   return (
     <div className="max-w-screen overflow-x-hidden font-poppins">
-      <nav className="bg-black fixed px-2  sm:h-auto sm:w-full w-screen z-20 left-0 right-0 top-0 border-b border-gray-400">
+      <nav className="bg-[#101b25] fixed px-2  sm:h-auto sm:w-full w-screen z-20 left-0 right-0 top-0 ">
         {/* dektop nav */}
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto sm:p-4 pb-2">
           <Link to="/" className="flex items-center">
@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className="flex">
           <Link to="/contact"><button
               type="button"
-              className="bg-blue-600 px-4 py-2 text-white hidden sm:block rounded-xl mr-2 hover:bg-red-600"
+              className="bg-[#FF4820] px-4 py-2 text-white hidden sm:block rounded-xl mr-2 hover:bg-red-600"
             >
              Contact Us
             </button></Link>
