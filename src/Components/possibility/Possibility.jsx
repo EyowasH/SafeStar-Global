@@ -8,7 +8,7 @@ const Possibility = () => (
       <img
         src="https://yatindustrial.com/wp-content/uploads/2020/03/1-29-e1584723571223.jpg"
         alt="possibility"
-      />
+      className="hidden sm:block"/>
     </div>
     <div className="gpt3__possibility-content">
       <h1 className="gradient__text">
