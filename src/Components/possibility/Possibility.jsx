@@ -1,16 +1,31 @@
-import React from 'react';
+import React from "react";
 // import possibilityImage from '../../assets/possibility.png';
-import './possibility.css';
+import "./possibility.css";
 
 const Possibility = () => (
   <div className="gpt3__possibility section__padding" id="possibility">
     <div className="gpt3__possibility-image">
-      <img src="https://yatindustrial.com/wp-content/uploads/2020/03/1-29-e1584723571223.jpg" alt="possibility" />
+      <img
+        src="https://yatindustrial.com/wp-content/uploads/2020/03/1-29-e1584723571223.jpg"
+        alt="possibility"
+      />
     </div>
     <div className="gpt3__possibility-content">
-      <h4 className="about">About Us</h4>
-      <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+      <h1 className="gradient__text">
+      About Us 
+      </h1>
+      <p className=" text-justify lg:text-start">
+        SafeStar is a privately owned import-export company based in Addis
+        Ababa, Ethiopia. We have proudly served organizations in various
+        industries; finding and supplying the tools and inputs they need, when
+        they need them.
+      </p>
+      <p className="text-justify lg:text-start">
+        We export Oil Seeds and Pulses, and Import Industrial Machinery &
+        Equipment, Chemicals, Supplies and Metals. We have now also started
+        importing Security and Fire Fighting Equipment and parts.
+      </p>
+
       <h4>Request Early Access to Get Started</h4>
     </div>
   </div>

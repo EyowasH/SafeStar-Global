@@ -14,7 +14,10 @@ const Import = () => {
   ];
   return (
     <section>
+      
+      <div className="gradient__bg">
       <Navbar />
+      </div>
       {/* <div className="sm:mt-36 mt-20 px-6 ">
           <h1 className="flex justify-center text-transparent bg-clip-text hover:bg-red-600 bg-red-500 to-emerald-500 font-extrabold sm:text-6xl text-4xl text-center">
             Import!
@@ -128,7 +131,9 @@ const Import = () => {
       </section>
 
       <BlogsI />
+      <div className="gradient__bg">
       <Footer />
+      </div>
     </section>
   );
 };

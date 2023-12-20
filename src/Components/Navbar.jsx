@@ -8,7 +8,7 @@ const Navbar = () => {
   console.log(open);
   return (
     <div className="max-w-screen overflow-x-hidden font-poppins">
-      <nav className="bg-[#000000] fixed px-2  sm:h-auto sm:w-full w-screen z-20 left-0 right-0 top-0 ">
+      <nav className="   ">
         {/* dektop nav */}
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto sm:p-4 pb-2">
           <Link to="/" className="flex items-center">

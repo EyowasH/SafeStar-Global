@@ -1007,7 +1007,9 @@ const Contact = () => {
       {/* brands end  */}
 
       <div className="w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
+      <div className="gradient__bg">
       <Footer />
+      </div>
     </div>
   );
 };

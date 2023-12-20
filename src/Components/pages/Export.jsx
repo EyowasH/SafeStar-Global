@@ -174,7 +174,9 @@ const Export = () => {
           </section>
         </div> */}
       <Blogs />
+      <div className="gradient__bg">
       <Footer />
+      </div>
     </section>
   );
 };
