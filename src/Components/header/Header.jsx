@@ -8,8 +8,8 @@ const Header = () => (
     <div className="gpt3__header-content">
       <h1 className="gradient__text">Here you can Level Up Your Business </h1>
       <p>
-        YAT Industrial is a privately owned import-export company in Addis
-        Ababa, Ethiopia. We have proudly served organizations in various
+        Safe star global partner is a privately owned import-export company in
+        Addis Ababa, Ethiopia. We have proudly served organizations in various
         industries. Finding and supplying the tools and inputs they need, when
         they need them.
       </p>

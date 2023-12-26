@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import coffee from "../assets/coffee.jpg"
 
 const Blogs = () => {
   return (
@@ -17,7 +18,6 @@ const Blogs = () => {
                 src="https://yatindustrial.com/wp-content/uploads/2020/06/YAT-Sesame.jpg"
                 alt="No image"
                 className="rounded-xl mx-auto h-[250px] w-full drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:rounded-xl hover:skew-x-2 hover:scale-110"
-                
               />
             </div>
 
@@ -136,7 +136,7 @@ const Blogs = () => {
           >
             <div className="overflow-hidden">
               <img
-                src="https://t3.gstatic.com/images?q=tbn:ANd9GcRBhQPUVWbQwjPsCZeFMua9shpLV9O97gTgaigYdW85AcBiwqAa"
+                src={coffee}
                 alt="No image"
                 className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
@@ -144,11 +144,11 @@ const Blogs = () => {
 
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
-                How to grow your business
+                coffee
               </h1>
               <p className="line-clamp-3 text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
-                consectetur adipisicing elit.
+                The coffee is known for its sweetness, fragrance, and light to
+                medium body.
               </p>
             </div>
           </div>
