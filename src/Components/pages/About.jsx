@@ -16,7 +16,7 @@ const About = () => {
             About Us
           </h1>
           <p className=" text-justify lg:text-start">
-            SafeStar is a privately owned import-export company based in Addis
+            Safe Star global partner is a privately owned import-export company based in Addis
             Ababa, Ethiopia. We have proudly served organizations in various
             industries; finding and supplying the tools and inputs they need,
             when they need them.
@@ -51,10 +51,10 @@ const About = () => {
             Our Happy Clients{" "}
           </h1>
           <p className="text-[20px] text-justify lg:text-start text-[#bababe]">
-            SafeStar is a privately owned import-export company in Addis Ababa,
-            Ethiopia. We have proudly served organizations in various
-            industries. Finding and supplying the tools and inputs they need,
-            when they need them.
+            Safe Star global partner is a privately owned import-export company
+            in Addis Ababa, Ethiopia. We have proudly served organizations in
+            various industries. Finding and supplying the tools and inputs they
+            need, when they need them.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ const About = () => {
       </div>
       <CallToAction />
       <div className="gradient__bg">
-      <Footer />
+        <Footer />
       </div>
     </>
   );

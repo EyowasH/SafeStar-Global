@@ -20,7 +20,7 @@ const Navbar = () => {
               className="hidden sm:block sm:w-[35px] sm:-h-[35px]"
             />
             <span className="ml-2 mt-2 sm:mt-0 text-white font-semibold text-xl">
-              <span className="text-red-600">SafeStar</span> <span className="text-white"> Global</span>
+              <span className="text-red-600">Safe Star</span> <span className="text-white"> Global</span>
             </span>
           </Link>
         <div className="gpt3__navbar-links_container">

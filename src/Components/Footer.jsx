@@ -21,9 +21,9 @@ const Footer = () => {
               </a>
             </h1>
             <p className="">
-              SafeStar Global is a privately owned import-export company in
-              Addis Ababa, Ethiopia. We have proudly served organizations in
-              various industries.{" "}
+              Safe Star global partner is a privately owned import-export
+              company in Addis Ababa, Ethiopia. We have proudly served
+              organizations in various industries.{" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
