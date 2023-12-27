@@ -1,12 +1,12 @@
 import React from "react";
-// import possibilityImage from '../../assets/possibility.png';
+import Fire from "../../assets/Fire.jpg"
 import "./possibility.css";
 
 const Possibility = () => (
   <div className="gpt3__possibility section__padding" id="possibility">
     <div className="gpt3__possibility-image">
       <img
-        src="https://yatindustrial.com/wp-content/uploads/2020/03/1-29-e1584723571223.jpg"
+        src={Fire}
         alt="possibility"
         className="hidden sm:block"
       />

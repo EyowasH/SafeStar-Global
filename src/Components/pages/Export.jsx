@@ -12,7 +12,9 @@ const Export = () => {
   ];
   return (
     <section>
-      <Navbar />
+      <div className="gradient__bg">
+        <Navbar />
+      </div>
       <section id="about" className="py-16 text-white bg-[#201d27] ">
         <div className="text-center  mt-11">
           <h3 className="text-5xl font-semibold mr-10">
@@ -175,7 +177,7 @@ const Export = () => {
         </div> */}
       <Blogs />
       <div className="gradient__bg">
-      <Footer />
+        <Footer />
       </div>
     </section>
   );

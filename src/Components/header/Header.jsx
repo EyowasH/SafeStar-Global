@@ -1,6 +1,5 @@
 import React from "react";
-// import people from '../../assets/people.png';
-// import ai from '../../assets/ai.png';
+import Fire from "../../assets/Fire.jpg"
 import "./header.css";
 
 const Header = () => (
@@ -26,7 +25,7 @@ const Header = () => (
     </div>
 
     <div className="gpt3__header-image">
-      <img src="https://yatindustrial.com/wp-content/uploads/2020/03/1-29-e1584723571223.jpg" />
+      <img src={Fire} />
     </div>
   </div>
 );

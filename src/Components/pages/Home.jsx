@@ -5,6 +5,7 @@ import Features from "../features/Feature";
 import BannerDetails from '../BannerDetails'
 import CallToAction from "../CallToAction";
 import Footer from "../Footer";
+import Soybean from "../../assets/Soybean.jpg"
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       </div>
       {/* <Brand/> */}
       <BannerDetails Text={"Our Export Products"}
-      img={"https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-soya-beans.jpg"}
+      img={Soybean}
       Text1={"Stay in touch: Farmers, Ethiopia."}
       Text2={"Provide international markets: Local producers, reliable support."}
       Text3={"Access to products: Oilseeds, pulses."}

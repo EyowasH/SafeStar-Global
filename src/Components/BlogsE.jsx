@@ -1,5 +1,11 @@
 import React, { useEffect } from "react";
 import coffee from "../assets/coffee.jpg"
+import sesame from "../assets/sesame.jpg"
+import Kidney_Bean from "../assets/Kidney Bean.jpg"
+import Soybean from "../assets/Soybean.jpg"
+import Lupin_Bean from "../assets/Lupin Bean.jpg"
+import Mung_Bean from "../assets/Mung Bean.jpg"
+
 
 const Blogs = () => {
   return (
@@ -15,7 +21,7 @@ const Blogs = () => {
           >
             <div className="overflow-hidden">
               <img
-                src="https://yatindustrial.com/wp-content/uploads/2020/06/YAT-Sesame.jpg"
+                src={sesame}
                 alt="No image"
                 className="rounded-xl mx-auto h-[250px] w-full drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:rounded-xl hover:skew-x-2 hover:scale-110"
               />
@@ -39,7 +45,7 @@ const Blogs = () => {
           >
             <div className="overflow-hidden">
               <img
-                src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-kidney-beans.jpg"
+                src={Kidney_Bean}
                 alt="No image"
                 className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
@@ -63,7 +69,7 @@ const Blogs = () => {
           >
             <div className="overflow-hidden">
               <img
-                src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-soya-beans.jpg"
+                src={Soybean}
                 alt="No image"
                 className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
@@ -89,7 +95,7 @@ const Blogs = () => {
           >
             <div className="overflow-hidden">
               <img
-                src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-lupin-bean.jpg"
+                src={Lupin_Bean}
                 alt="No image"
                 className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
@@ -113,7 +119,7 @@ const Blogs = () => {
           >
             <div className="overflow-hidden">
               <img
-                src="https://yatindustrial.com/wp-content/uploads/2020/03/YAT-Export-mung-beans.jpg"
+                src={Mung_Bean}
                 alt="No image"
                 className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
