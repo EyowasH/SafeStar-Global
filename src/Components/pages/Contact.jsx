@@ -5,7 +5,9 @@ import Footer from '../Footer'
 const Contact = () => {
   return (
     <div>
-      <Navbar />
+      <div className="gradient__bg">
+        <Navbar />
+      </div>
       {/* contact start */}
       <div className="max-w-screen font-poppins overflow-hidden ">
         <section className="relative z-10 bg-gradient-to-br from-red-100  py-20  sm:px-20 sm:py-40 ">
@@ -40,7 +42,7 @@ const Contact = () => {
                         Our Location
                       </h4>
                       <p className="text-body-color text-base">
-                      Bole Medehaniyalem, Morning Star Mall
+                        Bole Medehaniyalem, Morning Star Mall
                         <br />
                         Fourth Floor Room No.404
                       </p>
@@ -64,11 +66,11 @@ const Contact = () => {
                         Phone Number
                       </h4>
                       <p className="text-body-color text-base">
-                      +251 114 700 101
+                        <a href="tel:+251 114 700 101">+251 114 700 101</a>
                         <br />
-                        +251 114 700 202
+                        <a href="tel:+251 114 700 202">+251 114 700 202</a>
                         <br />
-                        +251 111 267 716
+                        <a href="tel:+251 111 267 716">+251 111 267 716</a>
                       </p>
                     </div>
                   </div>
@@ -85,7 +87,7 @@ const Contact = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-body-color text-base">
-                      <span className="text-red-600 mb-1 text-xl font-bold">Email </span> : info@yatindustrial.com
+                      <a href="mailto:info@yatindustrial.com"><span className="text-red-600 mb-1 text-xl font-bold">Email </span> : info@yatindustrial.com</a>
                         <br />
                         <span className="text-red-600 mb-1 text-xl font-bold">P.O.Box</span> : 24598/1000
                         <br />
