@@ -87,7 +87,7 @@ const Contact = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-body-color text-base">
-                      <a href="mailto:info@yatindustrial.com"><span className="text-red-600 mb-1 text-xl font-bold">Email </span> : info@yatindustrial.com</a>
+                      <span className="text-red-600 mb-1 text-xl font-bold">Email </span> :<a href="mailto:info@yatindustrial.com" target="\_blank"> info@yatindustrial.com</a>
                         <br />
                         <span className="text-red-600 mb-1 text-xl font-bold">P.O.Box</span> : 24598/1000
                         <br />
