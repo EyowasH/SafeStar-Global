@@ -149,7 +149,7 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
 
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold text-black">
-                Parkinse
+                Parkin
               </h1>
             </div>
           </div>
