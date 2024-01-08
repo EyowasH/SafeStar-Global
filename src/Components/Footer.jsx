@@ -28,12 +28,11 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Wollo Sefer Medina Tawor Ground Floor</p>
+              <p>Megenagna 24</p>
             </div>
             <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />
-              <p>
-                +251 114 700 101 <br /> +251 114 700 202
+              <p> +251 116 594 545 <br /> +251 116 594 747
               </p>
             </div>
             {/* Social Handle */}

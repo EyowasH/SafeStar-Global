@@ -6,6 +6,7 @@ import BannerDetails from '../BannerDetails'
 import CallToAction from "../CallToAction";
 import Footer from "../Footer";
 import Soybean from "../../assets/Soybean.jpg"
+import Update from "../Update";
 
 const Home = () => {
   return (
@@ -15,6 +16,8 @@ const Home = () => {
         <Header />
       </div>
       {/* <Brand/> */}
+      
+      <Update/>
       <BannerDetails Text={"Our Export Products"}
       img={Soybean}
       Text1={"Stay in touch: Farmers, Ethiopia."}
