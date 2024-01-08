@@ -129,8 +129,8 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+               Parkinse
               </h1>
             </div>
           </div>
@@ -148,8 +148,8 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+                Parkinse
               </h1>
             </div>
           </div>
@@ -167,8 +167,8 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              Parkinse
               </h1>
             </div>
           </div>
@@ -186,72 +186,8 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="py-2 bg-white">
-        {/* <h1 className="mb-8 border-l-8 py-3 pl-2  text-center hover:text-red-600 text-blue-500 text-3xl font-bold ">
-            Construction Equipment and Spare Parts
-          </h1> */}
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
-          <div
-            id="card"
-            className="   p-4   transition-all duration-500 hover:shadow-xl  "
-          >
-            <div className="overflow-hidden">
-              <img
-                src="http://localhost:5173/src/assets/Fire%20Hydrant%20Cabinets.jpg"
-                alt="No image"
-                className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
-              />
-            </div>
-
-            <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
-              </h1>
-            </div>
-          </div>
-
-          <div
-            id="card"
-            className="   p-4   transition-all duration-500 hover:shadow-xl  "
-          >
-            <div className="overflow-hidden">
-              <img
-                src="http://localhost:5173/src/assets/Fire%20Hydrant%20Cabinets.jpg"
-                alt="No image"
-                className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
-              />
-            </div>
-
-            <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
-              </h1>
-            </div>
-          </div>
-
-          <div
-            id="card"
-            className="   p-4   transition-all duration-500 hover:shadow-xl  "
-          >
-            <div className="overflow-hidden">
-              <img
-                src="http://localhost:5173/src/assets/Fire%20Hydrant%20Cabinets.jpg"
-                alt="No image"
-                className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
-              />
-            </div>
-
-            <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+                Parkinse
               </h1>
             </div>
           </div>
@@ -276,8 +212,8 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              Parkinse
               </h1>
             </div>
           </div>
@@ -295,8 +231,8 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              Parkinse
               </h1>
             </div>
           </div>
@@ -314,8 +250,8 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+                Parkinse
               </h1>
             </div>
           </div>
@@ -340,8 +276,8 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              Parkinse
               </h1>
             </div>
           </div>
@@ -359,8 +295,8 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              Parkinse
               </h1>
             </div>
           </div>
@@ -378,8 +314,72 @@ text-2xl font-bold mt-4  mr-10 flex flex-col gap-3
             </div>
 
             <div className="space-y-3 py-3">
-              <h1 className="line-clamp-1 text-xl font-bold text-amber-400">
-                Concrete Mixer
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+                Parkinse
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-2 bg-white">
+        {/* <h1 className="mb-8 border-l-8 py-3 pl-2  text-center hover:text-red-600 text-blue-500 text-3xl font-bold ">
+            Construction Equipment and Spare Parts
+          </h1> */}
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
+          <div
+            id="card"
+            className="   p-4   transition-all duration-500 hover:shadow-xl  "
+          >
+            <div className="overflow-hidden">
+              <img
+                src="http://localhost:5173/src/assets/Fire%20Hydrant%20Cabinets.jpg"
+                alt="No image"
+                className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              Parkinse
+              </h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="   p-4   transition-all duration-500 hover:shadow-xl  "
+          >
+            <div className="overflow-hidden">
+              <img
+                src="http://localhost:5173/src/assets/Fire%20Hydrant%20Cabinets.jpg"
+                alt="No image"
+                className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+              Parkinse
+              </h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="   p-4   transition-all duration-500 hover:shadow-xl  "
+          >
+            <div className="overflow-hidden">
+              <img
+                src="http://localhost:5173/src/assets/Fire%20Hydrant%20Cabinets.jpg"
+                alt="No image"
+                className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold text-black">
+                Parkinse
               </h1>
             </div>
           </div>
