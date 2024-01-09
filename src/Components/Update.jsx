@@ -38,6 +38,7 @@ const Update = () => {
           </div>
         </div>
       </div>
+      <div className="w-[70%]  h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
       <div className="py-6 bg-white">
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4">
           <div
@@ -282,6 +283,7 @@ const Update = () => {
           </div>
         </div>
       </div>
+      <div className="flex justify-end ml-[30%] w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
     </>
   );
 };
