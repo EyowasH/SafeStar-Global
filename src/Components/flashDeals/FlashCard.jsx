@@ -46,7 +46,40 @@ const FlashCard = () => {
   };
 
   return (
-    <div className="container mx-auto px-6 py-6 bg-white">
+    <>
+    <div className="py-6  bg-white">
+        <div className="mx-auto max-w-screen-xl">
+          <h1 className="text-4xl font-bold text-blue-700 text-center">
+            MAIN PARTNERS
+          </h1>
+          <div className="flex flex-col md:flex-row gap-10">
+            <ul className="text-2xl font-bold flex flex-col gap-3 px-4 md:px-10 mt-4">
+              <li className="cursor-pointer">-Perkins</li>
+              <li className="cursor-pointer">-Lerosemer</li>
+              <li className="cursor-pointer">-Sinotruck</li>
+              <li className="cursor-pointer">-Royal Gold International</li>
+            </ul>
+            <ul className="text-2xl font-bold flex flex-col gap-3 px-4 md:px-10 mt-4">
+              <li className="cursor-pointer">-Sedro</li>
+              <li className="cursor-pointer">-ITTS</li>
+              <li className="cursor-pointer">-CBC Media</li>
+              <li className="cursor-pointer">-Matusala Construction</li>
+            </ul>
+            <ul className="text-2xl font-bold flex flex-col gap-3 px-4 md:px-10 mt-4">
+              <li className="cursor-pointer">-Boss Oli</li>
+              <li className="cursor-pointer">-Gold Paint</li>
+              <li className="cursor-pointer">
+                -Melose Technology Solution LLC
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-[70%]  h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
+
+
+      <div className="container mx-auto px-6 py-6 bg-white">
       <Slider {...settings} className="bg-white">
         <div className="p-4">
           <div className=" rounded p-2">
@@ -207,6 +240,10 @@ const FlashCard = () => {
 
       </Slider>
     </div>
+
+
+    </>
+    
   );
 };
 
