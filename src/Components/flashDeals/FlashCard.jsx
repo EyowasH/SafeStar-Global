@@ -39,10 +39,10 @@ const FlashCard = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-6 bg-white">
+    <div className="container mx-auto px-6 py-6 bg-white">
       <Slider {...settings} className="bg-white">
         <div className="p-4">
-          <div className=" rounded p-6">
+          <div className=" rounded p-2">
             <div
               id="card"
               className="   p-4   transition-all duration-500 hover:shadow-xl  "
@@ -64,7 +64,7 @@ const FlashCard = () => {
           </div>
         </div>
         <div className="p-4">
-          <div className=" rounded p-6">
+          <div className=" rounded p-2">
             <div
               id="card"
               className="   p-4   transition-all duration-500 hover:shadow-xl  "
@@ -86,7 +86,7 @@ const FlashCard = () => {
           </div>
         </div>
         <div className="p-4">
-          <div className=" rounded p-6">
+          <div className=" rounded p-2">
             <div
               id="card"
               className="   p-4   transition-all duration-500 hover:shadow-xl  "
@@ -108,7 +108,7 @@ const FlashCard = () => {
           </div>
         </div>
         <div className="p-4">
-          <div className=" rounded p-6">
+          <div className=" rounded p-2">
             <div
               id="card"
               className="   p-4   transition-all duration-500 hover:shadow-xl  "
@@ -131,7 +131,7 @@ const FlashCard = () => {
         </div>
 
         <div className="p-4">
-          <div className=" rounded p-6">
+          <div className=" rounded p-2">
             <div
               id="card"
               className="   p-4   transition-all duration-500 hover:shadow-xl  "
@@ -153,7 +153,7 @@ const FlashCard = () => {
           </div>
         </div>
         <div className="p-4">
-          <div className=" rounded p-6">
+          <div className=" rounded p-2">
             <div
               id="card"
               className="   p-4   transition-all duration-500 hover:shadow-xl  "
