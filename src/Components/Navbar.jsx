@@ -69,15 +69,9 @@ const Navbar = () => {
             <li className="text-white hover:text-red-600 font-semibold pl-8 cursor-pointer pb-4">
               <Link to="/about">About</Link>
             </li>
-            <li className="p-2 mr-4 text-white hover:text-red-700 cursor-pointer">
+            <li className="text-white hover:text-red-600 font-semibold pl-8 cursor-pointer pb-4">
               <Link to="/Products">Products</Link>
             </li>
-            {/* <li className="text-white hover:text-red-600 font-semibold pl-8 cursor-pointer pb-4">
-              <Link to="/import">Import</Link>
-            </li>
-            <li className="text-white hover:text-red-600 font-semibold pl-8 cursor-pointer pb-4">
-              <Link to="/export">Export</Link>
-            </li> */}
             <li className="text-white hover:text-red-600 font-semibold pl-8 cursor-pointer pb-4">
               <Link to="/contact">Contact</Link>
             </li>
