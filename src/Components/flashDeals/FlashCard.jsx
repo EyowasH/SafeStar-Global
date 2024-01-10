@@ -49,7 +49,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="http://localhost:5173/src/assets/Fire.jpg"
+                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -71,7 +71,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="http://localhost:5173/src/assets/Fire.jpg"
+                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -93,7 +93,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="http://localhost:5173/src/assets/Fire.jpg"
+                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -115,7 +115,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="http://localhost:5173/src/assets/Fire.jpg"
+                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -138,7 +138,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="http://localhost:5173/src/assets/Fire.jpg"
+                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -160,7 +160,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="http://localhost:5173/src/assets/Fire.jpg"
+                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
