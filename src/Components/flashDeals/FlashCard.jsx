@@ -2,6 +2,13 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import liquid_cargo from "../../assets/liquid cargo.webp"
+import Sinotruck from "../../assets/Sinotruck.jpg";
+import Track_Trailer from "../../assets/Track Trailer.webp";
+import Various_transformer from "../../assets/Various transformer.jpg";
+import Generater from "../../assets/Generater.jpg";
+import Car_Engine_Oil from "../../assets/Car Engine Oil.webp";
+import Ferro from "../../assets/Ferro.webp";
 
 const FlashCard = () => {
   const settings = {
@@ -49,7 +56,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
+                  src={liquid_cargo}
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -71,7 +78,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
+                  src={Sinotruck}
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -79,7 +86,7 @@ const FlashCard = () => {
 
               <div className="space-y-3 py-3">
                 <h1 className="line-clamp-1 text-xl font-bold text-black">
-                  Liquid Cargo
+                Sinotruck
                 </h1>
               </div>
             </div>
@@ -93,7 +100,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
+                  src={Track_Trailer}
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -101,7 +108,7 @@ const FlashCard = () => {
 
               <div className="space-y-3 py-3">
                 <h1 className="line-clamp-1 text-xl font-bold text-black">
-                  Liquid Cargo
+                Track Trailer
                 </h1>
               </div>
             </div>
@@ -115,7 +122,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
+                  src={Various_transformer}
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -123,7 +130,7 @@ const FlashCard = () => {
 
               <div className="space-y-3 py-3">
                 <h1 className="line-clamp-1 text-xl font-bold text-black">
-                  Liquid Cargo
+                Various transformer
                 </h1>
               </div>
             </div>
@@ -138,7 +145,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
+                  src={Generater}
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -146,7 +153,7 @@ const FlashCard = () => {
 
               <div className="space-y-3 py-3">
                 <h1 className="line-clamp-1 text-xl font-bold text-black">
-                  Liquid 
+                Generater 
                 </h1>
               </div>
             </div>
@@ -160,7 +167,7 @@ const FlashCard = () => {
             >
               <div className="overflow-hidden">
                 <img
-                  src="https://safe-star-global.vercel.app/assets/Soybean-PV9dwZxf.jpg"
+                  src={Car_Engine_Oil}
                   alt="No image"
                   className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
                 />
@@ -168,7 +175,30 @@ const FlashCard = () => {
 
               <div className="space-y-3 py-3">
                 <h1 className="line-clamp-1 text-xl font-bold text-black">
-                  Liquid 
+                Car Engine Oil 
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-4">
+          <div className=" rounded p-2">
+            <div
+              id="card"
+              className="   p-4   transition-all duration-500 hover:shadow-xl  "
+            >
+              <div className="overflow-hidden">
+                <img
+                  src={Ferro}
+                  alt="No image"
+                  className="   mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                />
+              </div>
+
+              <div className="space-y-3 py-3">
+                <h1 className="line-clamp-1 text-xl font-bold text-black">
+                Ferro
                 </h1>
               </div>
             </div>
