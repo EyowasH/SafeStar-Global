@@ -22,6 +22,9 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^11.0.5"
   },
+  "workspaces": [
+    "Desktop/All F/Real/Biruk/Project 22 YAT/safestar/my-project/strapi"
+  ],
   "devDependencies": {
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
