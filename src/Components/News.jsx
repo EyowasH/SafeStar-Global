@@ -67,10 +67,10 @@ const Blogs = () => {
                   <div className="flex flex-row">
                     <MdOutlineDateRange />
                     &nbsp;&nbsp;
-                    <p>{blog.publishedDate}</p>
+                    <p>13/1/2024</p>
                   </div>
-                  <h3 className="font-bold text-xl my-1">{blog.blogTitle}</h3>
-                  <p className="text-gray-600 ">{blog.blogDesc}</p>
+                  <h3 className="font-bold text-xl my-1">{blog.title}</h3>
+                  <p className="text-gray-600 ">{blog.desc}</p>
                 </div>
               </div>
             </Link>

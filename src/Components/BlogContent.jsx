@@ -77,11 +77,11 @@ const BlogContent = () => {
                 src={blog.coverImg}
               />
               <h1 className="font-bold text-2xl my-1 pt-5">
-                {blog.blogTitle}
+                {blog.title}
               </h1>
               <div className="pt-5">
                 {/* <ReactMarkdown className="line-break"> */}
-                  {blog.blogContent}
+                  {blog.content}
                 {/* </ReactMarkdown> */}
               </div>
             </div>
