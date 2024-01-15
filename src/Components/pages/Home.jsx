@@ -8,7 +8,7 @@ import Footer from "../Footer";
 import Soybean from "../../assets/Soybean.jpg"
 // import Update from "../Update";
 import FlashCard from "../flashDeals/FlashCard";
-import Blogs from "../Blogs";
+import Blogs from "../News";
 
 const images = [
   'https://via.placeholder.com/300x300/f00/fff.png?text=Product+1',
@@ -19,13 +19,14 @@ const images = [
   'https://via.placeholder.com/300x300/0ff/fff.png?text=Product+6',
 ];
 
-const Home = () => {
+const Home = ({blogs}) => {
+  
   return (
     <>
       <div className="gradient__bg">
         <Navbar />
         <Header />
-        <Blogs/>
+        <Blogs blogs={blogs} />
       </div>
       {/* <Brand/> */}
       {/* <Products/> */}

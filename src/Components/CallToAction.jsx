@@ -16,7 +16,7 @@ const CallToAction = () => {
 
   return (
     <div>
-      <div className="w-[70%]  h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
+      <div className="w-[70%]  h-[2px] bg-slate-50"></div>
       <>
         <section className="py-20 lg:py-[120px] bg-slate-200 dark:bg-slate-900 font-poppins">
           <div className="container mx-auto">
