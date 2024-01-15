@@ -19,14 +19,14 @@ const images = [
   'https://via.placeholder.com/300x300/0ff/fff.png?text=Product+6',
 ];
 
-const Home = ({blogs}) => {
+const Home = () => {
   
   return (
     <>
       <div className="gradient__bg">
         <Navbar />
         <Header />
-        <Blogs blogs={blogs} />
+        <Blogs  />
       </div>
       {/* <Brand/> */}
       {/* <Products/> */}

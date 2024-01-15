@@ -8,7 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Products from "./Components/pages/Products";
 import BlogContentPage from "./Components/pages/BlogContentPage";
-import useFetch from "./hooks/useFetch";
+// import useFetch from "./hooks/useFetch";
 
 function App() {
   React.useEffect(() => {
@@ -21,21 +21,21 @@ function App() {
     AOS.refresh();
   }, []);
 
-  const { loading, data, error } = useFetch(
-    "http://localhost:1337/api/blogs?populate=*"
-  );
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error!</p>;
+  // const { loading, data, error } = useFetch(
+  //   "http://localhost:1337/api/blogs?populate=*"
+  // );
+  // if (loading) return <p>Loading...</p>;
+  // if (error) return <p>Error!</p>;
   
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home blogs={data?data:""} />} />
+        <Route path="/" element={<Home  />} />
         <Route path="/about" element={<About />} />
         <Route path="/Products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/News/:id" element={<BlogContentPage blogs={data?data:""} />}></Route>
+        <Route path="/News/:id" element={<BlogContentPage  />}></Route>
       </Routes>
     </BrowserRouter>
   );
