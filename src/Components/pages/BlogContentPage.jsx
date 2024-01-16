@@ -10,7 +10,6 @@ const BlogContentPage = ({blogs}) => {
     <div>
       <div className="gradient__bg">
         <Navbar />
-        {/* <Header /> */}
       </div>
       <BlogContent blogs={blogs} />
       <Footer />

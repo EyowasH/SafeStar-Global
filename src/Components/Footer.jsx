@@ -86,6 +86,15 @@ const Footer = () => {
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     About us
                   </li>
+                  <Link
+                      to="https://safe-star-strapi.onrender.com/admin"
+                      target="_blank"
+                      className="duration-200 hover:scale-105"
+                    >
+                      <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                      Admin
+                  </li>
+                    </Link>
                 </ul>
               </div>
             </div>

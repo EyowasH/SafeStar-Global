@@ -2,9 +2,12 @@ import React from "react";
 import { MdOutlineDateRange } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-const Blogs = () => {
+const Blogs = ({blogs}) => {
 
-  const blogs = [
+  console.log("Blog Object")
+    console.log(blogs)
+
+  const blogs1 = [
     {
       id: 1,
       title: "News 1",
@@ -56,21 +59,21 @@ const Blogs = () => {
           Read Our Latest News
         </h1>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 ss:grid-cols-1 gap-8 px-4 text-black">
-          {blogs.map((blog) => (
+          {blogs.data.map((blog) => (
             <Link to={`/News/${blog.id}`}>
               <div className="bg-white rounded-xl overflow-hidden drop-shadow-md">
                 <img
                   className="h-56 w-full object-cover"
-                 src={blog.coverImg} 
+                  src={blog.attributes.coverImg.data.attributes.url}
                 />
                 <div className="p-8">
                   <div className="flex flex-row">
                     <MdOutlineDateRange />
                     &nbsp;&nbsp;
-                    <p>13/1/2024</p>
+                    <p>{blog.attributes.publishedDate}</p>
                   </div>
-                  <h3 className="font-bold text-xl my-1">{blog.title}</h3>
-                  <p className="text-gray-600 ">{blog.desc}</p>
+                  <h3 className="font-bold text-xl my-1">{blog.attributes.blogTitle}</h3>
+                  <p className="text-gray-600 ">{blog.attributes.blogDesc}</p>
                 </div>
               </div>
             </Link>
