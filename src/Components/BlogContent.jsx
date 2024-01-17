@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 
 const BlogContent = ({blogs}) => {
   
-  console.log("Blog Object")
+  // console.log("Blog Object")
 
     const {id}=useParams()
 
