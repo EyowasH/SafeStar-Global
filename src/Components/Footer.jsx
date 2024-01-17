@@ -87,7 +87,7 @@ const Footer = () => {
                     About us
                   </li>
                   <Link
-                      to="https://safe-star-strapi.onrender.com/admin"
+                      to="https://safe-star-strapi1.onrender.com/admin"
                       target="_blank"
                       className="duration-200 hover:scale-105"
                     >

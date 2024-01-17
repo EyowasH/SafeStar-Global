@@ -23,12 +23,12 @@ function App() {
   // https://safe-star-strapi.onrender.com/api/blogs
 
   const { loading, data, error } = useFetch(
-    "https://safe-star-strapi.onrender.com/api/blogs?populate=*"
+    "https://safe-star-strapi1.onrender.com/api/blogs?populate=*"
   );
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error!</p>;
-  
-  
+  console.log("app")
+  console.log(data)
 
   return (
     <BrowserRouter>

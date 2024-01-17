@@ -11,14 +11,14 @@ const Export = () => {
   ];
   return (
     <section>
-      <section id="about" className="py-16 text-white bg-[#201d27] ">
+      <section id="about" className="py-16 bg-slate-50 text-black ">
         <div className="text-center  mt-11">
           <h3 className="text-5xl font-semibold mr-10">
             Ex<span className="text-cyan-600">port</span>
           </h3>
           <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
             <div className="p-2">
-              <div className="text-[#dbd6d6] my-3">
+              <div className="text-black my-3">
                 <p className="text-justify sm:lg:text-start lg:leading-7 lg:w-11/12 mx-auto my-3">
                   Facilitating global market access, we connect Ethiopian
                   producers to international networks. Our commitment lies in
@@ -34,7 +34,7 @@ const Export = () => {
                 <div className="flex mt-10 justify-center items-center gap-7">
                   {info.map((content) => (
                     <div key={content.text}>
-                      <h3 className="md:text-4xl text-2xl font-semibold text-white">
+                      <h3 className="md:text-4xl text-2xl font-semibold text-black">
                         {content.count}
                         <span className="text-cyan-600">+</span>{" "}
                       </h3>

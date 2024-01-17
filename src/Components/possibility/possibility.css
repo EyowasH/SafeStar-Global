@@ -31,7 +31,8 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    color: #71E5FF;
+    color: rgb(0 0 0);
+    /* color: #71E5FF; */
 }
 
 .gpt3__possibility-content h4:last-child {
@@ -39,15 +40,17 @@
 }
 
 .gpt3__possibility-content h1 {
-    font-family: var(--font-family);
+    /* font-family: var(--font-family); */
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
     margin: 1rem 0;
+    color: rgb(0 0 0);
 }
 
 .gpt3__possibility-content p {
-    color: var(--color-text);
+    /* color: var(--color-text); */
+    color: rgb(0 0 0);
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;

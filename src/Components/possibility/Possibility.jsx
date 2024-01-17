@@ -3,7 +3,7 @@ import Fire from "../../assets/Fire.jpg"
 import "./possibility.css";
 
 const Possibility = () => (
-  <div className="gpt3__possibility section__padding" id="possibility">
+  <div className="gpt3__possibility section__padding bg-slate-50" id="possibility">
     <div className="gpt3__possibility-image">
       <img
         src={Fire}
@@ -12,7 +12,7 @@ const Possibility = () => (
       />
     </div>
     <div className="gpt3__possibility-content">
-      <h1 className="gradient__text">About Us</h1>
+      <h1 className="gradient__text text-black">About Us</h1>
       <p className=" text-justify lg:text-start">
         Safe Star global partner is a privately owned import-export company
         based in Addis Ababa, Ethiopia. We have proudly served organizations in
