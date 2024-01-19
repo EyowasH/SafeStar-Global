@@ -10,42 +10,10 @@ const About = () => {
       <div className="gradient__bg">
         <Navbar />
       </div>
-      {/* <div className="bg-slate-200 dark:bg-slate-900 min-h-screen flex flex-col lg:flex-row justify-between items-center lg:px-32 px-5 pt-24 lg:pt-16 gap-5">
-        <div className=" w-full lg:w-3/4 space-y-4">
-          <h1 className=" text-4xl font-semibold text-center lg:text-start text-blue-600 ">
-            About Us
-          </h1>
-          <p className=" text-justify lg:text-start">
-            Safe Star global partner is a privately owned import-export company based in Addis
-            Ababa, Ethiopia. We have proudly served organizations in various
-            industries; finding and supplying the tools and inputs they need,
-            when they need them.
-          </p>
-          <p className="text-justify lg:text-start">
-            We export Oil Seeds and Pulses, and Import Industrial Machinery &
-            Equipment, Chemicals, Supplies and Metals. We have now also started
-            importing Security and Fire Fighting Equipment and parts.
-          </p>
-          <p className="text-justify lg:text-start">
-            We are proud to have worked for some of the most inspiring companies
-            and organizations. Our clients are the partners that we have won and
-            executed multiple projects.
-          </p>
-        </div>
-        <div className=" w-full lg:w-3/4">
-          <img
-            className=" rounded-lg"
-            src="https://yatindustrial.com/wp-content/uploads/2020/03/1-29-e1584723571223.jpg"
-            alt="img"
-          />
-        </div>
-      </div> */}
       <Possibility />
-      <div className="flex justify-end ml-[30%] w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
+      <div className="flex justify-end ml-[30%] w-[70%] h-[2px] "></div>
       <div
-        className="bg-[#201d27] h-full  px-10 md:px-40 
-            py-40 space-y-5 my-0"
-      >
+        className=" h-full  px-10 md:px-40 bg-gradient-to-r py-40 space-y-5 my-0">
         <div>
           <h1 className="font-bold text-[28px] text-center  text-blue-600">
             Our Happy Clients{" "}

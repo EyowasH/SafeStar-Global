@@ -31,14 +31,8 @@ const Navbar = () => {
                 <Link to="/about">About</Link>
               </li>
               <li className="p-2 mr-4 text-white hover:text-red-700 cursor-pointer">
-                <Link to="/Products">Products</Link>
+                <Link to="/products">Products</Link>
               </li>
-              {/* <li className="p-2 mr-4 text-white hover:text-red-700 cursor-pointer">
-                <Link to="/import">Import</Link>
-              </li>
-              <li className="p-2 text-white hover:text-red-700 cursor-pointer">
-                <Link to="/export">Export</Link>
-              </li> */}
               <li className="p-2 text-white hover:text-red-700 cursor-pointer">
                 <Link to="/contact">Contact</Link>
               </li>

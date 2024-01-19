@@ -1,12 +1,11 @@
 import React from "react";
 import Navbar from "../Navbar";
-import Header from "../header/Header";
+import Header from "../Header";
 import Features from "../features/Feature";
 import BannerDetails from '../BannerDetails'
 import CallToAction from "../CallToAction";
 import Footer from "../Footer";
 import Soybean from "../../assets/Soybean.jpg"
-// import Update from "../Update";
 import FlashCard from "../flashDeals/FlashCard";
 import Blogs from "../News";
 
@@ -21,14 +20,13 @@ const images = [
 
 const Home = ({blogs}) => {
 
-  // console.log("Home pages")
-  // console.log(blogs)
 
   return (
     <>
       <div className="gradient__bg">
         <Navbar />
-        <Header />
+        {/* <Header /> */}
+        <Header/>
         <Blogs blogs={blogs} />
       </div>
       {/* <Brand/> */}

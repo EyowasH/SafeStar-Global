@@ -1,29 +1,28 @@
 import React, { useEffect } from "react";
-import coffee from "../assets/coffee.jpg"
-import sesame from "../assets/sesame.jpg"
-import Kidney_Bean from "../assets/Kidney Bean.jpg"
-import Soybean from "../assets/Soybean.jpg"
-import Lupin_Bean from "../assets/Lupin Bean.jpg"
-import Mung_Bean from "../assets/Mung Bean.jpg"
-
+import coffee from "../assets/coffee.jpg";
+import sesame from "../assets/sesame.jpg";
+import Kidney_Bean from "../assets/Kidney Bean.jpg";
+import Soybean from "../assets/Soybean.jpg";
+import Lupin_Bean from "../assets/Lupin Bean.jpg";
+import Mung_Bean from "../assets/Mung Bean.jpg";
 
 const Blogs = () => {
   return (
     <main data-aos="fade-up" data-aos-offset="200">
       <section className="container mb-10 py-8 ">
-        <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold bg-white">
+        <h1 className="rounded-xl mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold bg-white">
           Export Products{" "}
         </h1>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           <div
             id="card"
-            className="rounded-xl  p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
+            className="rounded-xl  p-4 shadow-lg transition-all duration-500 hover:shadow-xl bg-slate-50"
           >
             <div className="overflow-hidden">
               <img
                 src={sesame}
                 alt="No image"
-                className="rounded-xl mx-auto h-[250px] w-full drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:rounded-xl hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:rounded-xl hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -31,7 +30,7 @@ const Blogs = () => {
               <h1 className="line-clamp-1 text-xl font-bold  text-blue-600 ">
                 Sesame
               </h1>
-              <p className="line-clamp-3 text-white">
+              <p className="line-clamp-3 text-black">
                 Sesame, often used as food and flavoring is also cultivated for
                 its oil content. It is sometimes referred to as bean and is
                 found in most of the tropical, subtropical, and southern
@@ -41,13 +40,13 @@ const Blogs = () => {
           </div>
           <div
             id="card"
-            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl bg-slate-50"
           >
             <div className="overflow-hidden">
               <img
                 src={Kidney_Bean}
                 alt="No image"
-                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -55,7 +54,7 @@ const Blogs = () => {
               <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 Kidney Bean
               </h1>
-              <p className="line-clamp-3 text-white">
+              <p className="line-clamp-3 text-black">
                 The kidney bean is a variety of the common bean. It is named for
                 its visual resemblance in shape and colour to a kidney. Red
                 kidney beans should not be confused with other red beans, such
@@ -65,13 +64,13 @@ const Blogs = () => {
           </div>
           <div
             id="card"
-            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl bg-slate-50"
           >
             <div className="overflow-hidden">
               <img
                 src={Soybean}
                 alt="No image"
-                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -79,7 +78,7 @@ const Blogs = () => {
               <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 Soybean
               </h1>
-              <p className="line-clamp-3 text-white">
+              <p className="line-clamp-3 text-black">
                 The soybean or soya bean (Glycine max) is a species of legume
                 native to East Asia, widely grown for its edible bean, which has
                 numerous uses. Traditional unfermented food uses of soybeans
@@ -88,16 +87,16 @@ const Blogs = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 pt-3">
           <div
             id="card"
-            className=" rounded-xl p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-500 hover:shadow-xl bg-slate-50"
           >
             <div className="overflow-hidden">
               <img
                 src={Lupin_Bean}
                 alt="No image"
-                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className=" mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -105,7 +104,7 @@ const Blogs = () => {
               <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 Lupin Bean
               </h1>
-              <p className="line-clamp-3 text-white">
+              <p className="line-clamp-3 text-black">
                 Lupin or lupini beans are the yellow legume seeds of the genus
                 Lupinus. They are traditionally eaten as a pickled snack food,
                 primarily in the Mediterranean basin (L. albus) and Latin
@@ -115,13 +114,13 @@ const Blogs = () => {
           </div>
           <div
             id="card"
-            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl bg-slate-50"
           >
             <div className="overflow-hidden">
               <img
                 src={Mung_Bean}
                 alt="No image"
-                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -129,7 +128,7 @@ const Blogs = () => {
               <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 Mung Bean{" "}
               </h1>
-              <p className="line-clamp-3 text-white">
+              <p className="line-clamp-3 text-black">
                 The mung bean (Vigna radiata) also known as the green gram,
                 maash, or moon. It is a common commodity in Asia. But what most
                 don’t know is that it is also commonly available in Ethiopia.
@@ -138,13 +137,13 @@ const Blogs = () => {
           </div>
           <div
             id="card"
-            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className=" rounded-xl p-4 shadow-lg transition-all duration-200 hover:shadow-xl bg-slate-50"
           >
             <div className="overflow-hidden">
               <img
                 src={coffee}
                 alt="No image"
-                className=" rounded-xl mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                className="mx-auto h-[250px] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
               />
             </div>
 
@@ -152,7 +151,7 @@ const Blogs = () => {
               <h1 className="line-clamp-1 text-xl font-bold text-blue-600">
                 coffee
               </h1>
-              <p className="line-clamp-3 text-white">
+              <p className="line-clamp-3 text-black">
                 The coffee is known for its sweetness, fragrance, and light to
                 medium body.
               </p>
