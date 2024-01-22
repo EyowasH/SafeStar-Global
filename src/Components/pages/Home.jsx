@@ -6,7 +6,9 @@ import BannerDetails from '../BannerDetails'
 import CallToAction from "../CallToAction";
 import Footer from "../Footer";
 import Soybean from "../../assets/Soybean.jpg"
+import Fire from "../../assets/Fire.jpg";
 import FlashCard from "../flashDeals/FlashCard";
+import Possibility from "../possibility/Possibility";
 import Blogs from "../News";
 
 const images = [
@@ -27,13 +29,15 @@ const Home = ({blogs}) => {
         <Navbar />
         {/* <Header /> */}
         <Header/>
-        <Blogs blogs={blogs} />
       </div>
+      <Possibility/>
+      <Blogs blogs={blogs} />
       {/* <Brand/> */}
       {/* <Products/> */}
       {/* <Update/> */}
       <div className="p-4 bg-white">
       <FlashCard images={images} />
+      
     </div>
       <BannerDetails Text={"Our Export Products"}
       img={Soybean}
@@ -41,7 +45,14 @@ const Home = ({blogs}) => {
       Text2={"Provide international markets: Local producers, reliable support."}
       Text3={"Access to products: Oilseeds, pulses."}
       Textp={"We provide international markets to local producers and reliable support to importers abroad."}/>
-      <Features/>
+      <BannerDetails reverse={true} 
+      Text={"Our Import Products"}
+      img={Fire}
+      Text1={"Construction Equipment"}
+      Text2={"Fire Protection System"}
+      Text3={"Industrial Machinery"}
+      Textp={"We hope for the best and prepare for the worst. Fire safety equipment is hopefully something you’ll never have to use."}/>
+      {/* <Features/> */}
       <CallToAction />
       <div className="gradient__bg">
       <Footer />
