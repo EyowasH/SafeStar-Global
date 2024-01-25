@@ -28,14 +28,11 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
               </li>
               <li className="p-2 mr-4 text-white hover:text-red-700 cursor-pointer">
-                <Link to="/about">About</Link>
+                <Link to="/about">About Us</Link>
               </li>
               <li className="p-2 mr-4 text-white hover:text-red-700 cursor-pointer">
                 <Link to="/products">Products</Link>
               </li>
-              {/* <li className="p-2 text-white hover:text-red-700 cursor-pointer">
-                <Link to="/contact">Contact</Link>
-              </li> */}
             </ul>
           </div>
           <div className="flex">

@@ -28,19 +28,17 @@ function App() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error!</p>;
 
-
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home 
-        blogs={data?data:""} 
-        />} />
+        <Route path="/" element={<Home blogs={data ? data : ""} />} />
         <Route path="/about" element={<About />} />
         <Route path="/Products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/News/:id" element={<BlogContentPage 
-        blogs={data?data:""}
-         />}></Route>
+        <Route
+          path="/News/:id"
+          element={<BlogContentPage blogs={data ? data : ""} />}
+        ></Route>
       </Routes>
     </BrowserRouter>
   );

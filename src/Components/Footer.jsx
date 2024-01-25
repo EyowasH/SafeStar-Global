@@ -11,8 +11,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="">
-      <section className="mx-auto max-w-[1200px] text-white">
-        <div className=" grid py-5 md:grid-cols-3">
+      <section className="mx-auto max-w-[1200px] text-white ">
+        <div className=" grid py-5 md:grid-cols-3 ">
           <div className=" px-2 py-8 ">
             <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
               <a href="/#home" className="">
@@ -28,15 +28,16 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Megenagna 24</p>
+              <p>Megenagna 24, Near Lancet Hospital</p>
             </div>
             <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />
 
               <p>
                 {" "}
-                <a href="tel:+251 116 594 545">+251 116 594 545</a><br />
-                <a href="tel:+251 116 594 747">+251 116 594 747</a> 
+                <a href="tel:+251 116 594 545">+251 116 594 545</a>
+                <br />
+                <a href="tel:+251 116 594 747">+251 116 594 747</a>
               </p>
             </div>
             {/* Social Handle */}
@@ -50,17 +51,12 @@ const Footer = () => {
                 <ul className={`flex flex-col gap-3`}>
                   <Link to="/about">
                     <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                      About
+                      About us
                     </li>
                   </Link>
-                  <Link to="/export">
+                  <Link to="/Products">
                     <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                      Export
-                    </li>
-                  </Link>
-                  <Link to="/import">
-                    <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
-                      Import
+                      Products
                     </li>
                   </Link>
                   <Link to="/contact">
@@ -74,10 +70,10 @@ const Footer = () => {
             <div className="">
               <div className="px-4 py-8 ">
                 <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
-                  Links
+                  Address
                 </h1>
                 <ul className="flex flex-col gap-3">
-                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  {/* <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     Privacy Policy
                   </li>
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
@@ -85,25 +81,30 @@ const Footer = () => {
                   </li>
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     About us
+                  </li> */}
+                  <li className="text-white mb-1  ">P.O.Box : 24598/1000</li>
+
+                  <li className="text-white mb-1 x ">
+                    WeChat: +251 970 00 00 01
                   </li>
                   {/* <Link
-                      to="https://safe-star-strapi1.onrender.com/admin"
-                      target="_blank"
-                      className="duration-200 hover:scale-105"
-                    >
-                      <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                    to="https://safe-star-strapi1.onrender.com/admin"
+                    target="_blank"
+                    className="duration-200 hover:scale-105"
+                  >
+                    <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                       Admin
-                  </li>
-                    </Link> */}
+                    </li>
+                  </Link> */}
                 </ul>
               </div>
             </div>
             <div className="">
               <div className="px-4 py-8 ">
-                <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
+                <h1 className=" text-justify text-xl font-bold sm:text-left sm:text-xl">
                   Social Links
                 </h1>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3 ">
                   <div className="mt-6 flex items-center gap-3">
                     <Link
                       to="#"

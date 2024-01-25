@@ -1,12 +1,8 @@
 import React from "react";
-// import { useState } from "react";
-// import { useEffect } from "react";
 import { MdOutlineDateRange } from "react-icons/md";
 import { Link } from "react-router-dom";
-// import axios from "axios";
 
-
-const Blogs = ({blogs}) => {
+const Blogs = ({ blogs }) => {
   // console.log("Blog Object")
   //   console.log(blogs)
 
@@ -54,25 +50,6 @@ const Blogs = ({blogs}) => {
   //     authorDesc: "Web Developer",
   //   },
   // ];
-
-  // const [blogs , setBlogs ] =useState([])
-
-  // useEffect(()=>{
-  //   const fetchData =async ()=>{
-  //     try {
-  //       const data =await axios.get(process.env.REACT_APP_API_URL+"/blogs",{
-  //         headers: {
-  //               Authorization: "bearer " + process.env.REACT_APP_API_TOKEN,
-  //            },
-  //       });
-  //       console.log( data);
-  //   }
-  //   catch (err) {
-  //   console.log(err);
-  //   }
-  //   };
-  //   fetchData();
-  // }, []);
 
   return (
     <div className="w-full bg-[#f9f9f9] py-[50px]">

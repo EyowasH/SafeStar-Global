@@ -1,14 +1,42 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useState, useRef } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
 
+  const [formData, setFormData] = useState({
+    userName: "",
+    userEmail: "",
+    message: "",
+  });
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm(
+  //       "service_i9nu975",
+  //       "template_erpo8id",
+  //       form.current,
+  //       "RN4GOG004O9p8959f"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         console.log("message");
+  //         alert("Form submitted!");
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Send the email using emailjs
     emailjs
       .sendForm(
         "service_i9nu975",
@@ -16,16 +44,17 @@ const Contact = () => {
         form.current,
         "RN4GOG004O9p8959f"
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message");
-          alert("Form submitted!");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+      .then((result) => {
+        console.log(result.text);
+        console.log("message");
+        alert("Form submitted!");
+
+        // Clear the form fields
+        setFormData({ userName: "", userEmail: "", message: "" });
+      })
+      .catch((error) => {
+        console.log(error.text);
+      });
   };
 
   return (
@@ -77,9 +106,7 @@ const Contact = () => {
                         Our Location
                       </h4>
                       <p className="text-body-color text-base">
-                        Bole Medehaniyalem, Morning Star Mall
-                        <br />
-                        Fourth Floor Room No.404
+                        Megenaga, Near lancet Hospital
                       </p>
                     </div>
                   </div>
@@ -131,7 +158,7 @@ const Contact = () => {
                           target="\_blank"
                         >
                           {" "}
-                          info@yatindustrial.com
+                          emaraim@gmail.com
                         </a>
                         <br />
                         <span className="text-red-600 mb-1 text-xl font-bold">
@@ -156,7 +183,7 @@ const Contact = () => {
               </div>
               <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
                 <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-                  <form ref={form} onSubmit={sendEmail}>
+                  {/* <form ref={form} onSubmit={sendEmail}>
                     <div className="mb-6">
                       <input
                         type="text"
@@ -179,6 +206,61 @@ const Contact = () => {
                         name="message"
                         placeholder="Your Message"
                         className="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                      ></textarea>
+                    </div>
+                    <div>
+                      <button
+                        type="submit"
+                        className="bg-blue-500 border-primary w-full rounded border p-3 text-white transition hover:bg-blue-700"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </form> */}
+                  <form ref={form} onSubmit={sendEmail}>
+                    <div className="mb-6">
+                      <input
+                        type="text"
+                        name="user_name"
+                        placeholder="Your Name"
+                        className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                        value={formData.userName}
+                        onChange={(event) =>
+                          setFormData({
+                            ...formData,
+                            userName: event.target.value,
+                          })
+                        }
+                      />
+                    </div>
+                    <div className="mb-6">
+                      <input
+                        type="email"
+                        name="user_email"
+                        placeholder="Your Email"
+                        className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                        value={formData.userEmail}
+                        onChange={(event) =>
+                          setFormData({
+                            ...formData,
+                            userEmail: event.target.value,
+                          })
+                        }
+                      />
+                    </div>
+                    <div className="mb-6">
+                      <textarea
+                        rows="6"
+                        name="message"
+                        placeholder="Your Message"
+                        className="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                        value={formData.message}
+                        onChange={(event) =>
+                          setFormData({
+                            ...formData,
+                            message: event.target.value,
+                          })
+                        }
                       ></textarea>
                     </div>
                     <div>
@@ -1061,7 +1143,7 @@ const Contact = () => {
 
       <div className="w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
       <div className="gradient__bg">
-      <Footer />
+        <Footer />
       </div>
     </div>
   );

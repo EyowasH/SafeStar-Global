@@ -52,25 +52,23 @@ const FlashCard = () => {
           <h1 className="text-4xl font-bold text-blue-700 text-center">
             MAIN PARTNERS
           </h1>
-          <div className="flex flex-col md:flex-row gap-10">
-            <ul className="text-2xl font-bold flex flex-col gap-3 px-4 md:px-10 mt-4">
-              <li className="cursor-pointer">-Perkins</li>
-              <li className="cursor-pointer">-Lerosemer</li>
-              <li className="cursor-pointer">-Sinotruck</li>
-              <li className="cursor-pointer">-Royal Gold International</li>
+          <div className="flex flex-col md:flex-row gap-10 px-4 md:px-10 mt-4 justify-between">
+            <ul className="text-2xl  flex flex-col gap-3 mt-4">
+              <li>-Perkins</li>
+              <li>-Lerosemer</li>
+              <li>-Sinotruck</li>
+              <li>-Royal Gold International</li>
             </ul>
-            <ul className="text-2xl font-bold flex flex-col gap-3 px-4 md:px-10 mt-4">
-              <li className="cursor-pointer">-Sedro</li>
-              <li className="cursor-pointer">-ITTS</li>
-              <li className="cursor-pointer">-CBC Media</li>
-              <li className="cursor-pointer">-Matusala Construction</li>
+            <ul className="text-2xl  flex flex-col gap-3 mt-4">
+              <li>-Sedro</li>
+              <li>-ITTS</li>
+              <li>-CBC Media</li>
+              <li>-Matusala Construction</li>
             </ul>
-            <ul className="text-2xl font-bold flex flex-col gap-3 px-4 md:px-10 mt-4">
-              <li className="cursor-pointer">-Boss Oli</li>
-              <li className="cursor-pointer">-Gold Paint</li>
-              <li className="cursor-pointer">
-                -Melose Technology Solution LLC
-              </li>
+            <ul className="text-2xl  flex flex-col gap-3 mt-4">
+              <li>-Boss Oli</li>
+              <li>-Gold Paint</li>
+              <li>-Melose Technology Solution LLC</li>
             </ul>
           </div>
         </div>
