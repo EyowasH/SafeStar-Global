@@ -26,20 +26,6 @@ const Footer = () => {
               organizations in various industries.{" "}
             </p>
             <br />
-            <div className="flex items-center gap-3">
-              <FaLocationArrow />
-              <p>Megenagna 24, Near Lancet Hospital</p>
-            </div>
-            <div className="mt-3 flex items-center gap-3">
-              <FaMobileAlt />
-
-              <p>
-                {" "}
-                <a href="tel:+251 116 594 545">+251 116 594 545</a>
-                <br />
-                <a href="tel:+251 116 594 747">+251 116 594 747</a>
-              </p>
-            </div>
             {/* Social Handle */}
           </div>
           <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10 ">
@@ -69,11 +55,28 @@ const Footer = () => {
             </div>
             <div className="">
               <div className="px-4 py-8 ">
-                <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
+              <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
+                  Address
+                </h1>
+                <div className="flex items-center gap-3">
+                  <FaLocationArrow />
+                  <p>Megenagna 24, Near Lancet Hospital</p>
+                </div>
+                <div className="mt-3 flex items-center gap-3">
+                  <FaMobileAlt />
+
+                  <p>
+                    {" "}
+                    <a href="tel:+251 116 594 545">+251 116 594 545</a>
+                    <br />
+                    <a href="tel:+251 116 594 747">+251 116 594 747</a>
+                  </p>
+                </div>
+                {/* <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-xl">
                   Address
                 </h1>
                 <ul className="flex flex-col gap-3">
-                  {/* <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     Privacy Policy
                   </li>
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
@@ -81,13 +84,13 @@ const Footer = () => {
                   </li>
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     About us
-                  </li> */}
+                  </li> 
                   <li className="text-white mb-1  ">P.O.Box : 24598/1000</li>
 
                   <li className="text-white mb-1 x ">
                     WeChat: +251 970 00 00 01
                   </li>
-                  {/* <Link
+                  <Link
                     to="https://safe-star-strapi1.onrender.com/admin"
                     target="_blank"
                     className="duration-200 hover:scale-105"
@@ -95,8 +98,8 @@ const Footer = () => {
                     <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                       Admin
                     </li>
-                  </Link> */}
-                </ul>
+                  </Link>
+                </ul> */}
               </div>
             </div>
             <div className="">
@@ -107,21 +110,21 @@ const Footer = () => {
                 <div className="flex flex-col gap-3 ">
                   <div className="mt-6 flex items-center gap-3">
                     <Link
-                      to="#"
+                      to="/"
                       target="_blank"
                       className="duration-200 hover:scale-105"
                     >
                       <FaInstagram className="text-3xl" />
                     </Link>
                     <Link
-                      to="https://www.facebook.com/yatindustrial"
+                      to="/"
                       target="_blank"
                       className="duration-200 hover:scale-105"
                     >
                       <FaFacebook className="text-3xl" />
                     </Link>
                     <Link
-                      to="https://www.linkedin.com/company/yat-industrial"
+                      to="/"
                       target="_blank"
                       className="duration-200 hover:scale-105"
                     >
