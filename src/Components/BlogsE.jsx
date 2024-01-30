@@ -1,15 +1,23 @@
 import React, { useEffect } from "react";
 import coffee from "../assets/coffee.jpg";
-import sesame from "../assets/sesame.jpg";
-import Kidney_Bean from "../assets/Kidney Bean.jpg";
+import coffee2 from "../assets/coffee2.jpg";
+import coffee3 from "../assets/coffee3.jpg";
+// import sesame from "../assets/sesame.jpg";
+import sesame1 from "../assets/sesame1.jpg";
+import peanuts from "../assets/peanuts.jpg";
+import Green_Mung from "../assets/Green_Mung.jpg";
+import Chickpea1 from "../assets/Chickpea1.webp";
+import Red_Kidney_Bean from "../assets/Red_Kidney_Bean.jpg";
+// import Chickpea from "../assets/Chickpea.jpg";
+// import Kidney_Bean from "../assets/Kidney Bean.jpg";
 import Soybean from "../assets/Soybean.jpg";
-import Lupin_Bean from "../assets/Lupin Bean.jpg";
-import Mung_Bean from "../assets/Mung Bean.jpg";
+// import Lupin_Bean from "../assets/Lupin Bean.jpg";
+// import Mung_Bean from "../assets/Mung Bean.jpg";
 
 const Blogs = () => {
   return (
     <main data-aos="fade-up" data-aos-offset="200">
-      <section className="container mb-10 py-8 ">
+      {/* <section className="container mb-10 py-8 ">
         <h1 className="rounded-xl mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold bg-white">
           Export Products{" "}
         </h1>
@@ -158,7 +166,154 @@ const Blogs = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <div className="bg-white">
+        <h1 className="rounded-xl py-2 pl-2 text-center text-3xl font-bold bg-white">
+          MAJOR EXPORT COMMODITIES
+        </h1>
+        <h1 className="rounded-xl  pl-2 text-center text-3xl font-bold text-red-500">
+          Coffee
+        </h1>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 ">
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={coffee}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img src={coffee2} alt="No image" className="mx-auto h-[250px]" />
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={coffee3}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-white">
+        <h1 className="pl-2 text-center text-3xl font-bold text-red-500">
+          Oil Seed
+        </h1>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 ">
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={sesame1}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Sesame</h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img src={Soybean} alt="No image" className="mx-auto h-[250px]" />
+            </div>
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Soybeans</h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={peanuts}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Peanuts</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-white">
+        <h1 className="pl-2 text-center text-3xl font-bold text-red-500">
+          Pulses
+        </h1>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 ">
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={Green_Mung}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Green Mung</h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img src={Chickpea1} alt="No image" className="mx-auto h-[250px]" />
+              <div className="space-y-3 py-3 px-2">
+                <h1 className="line-clamp-1 text-xl font-bold">Chickpea</h1>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={Red_Kidney_Bean}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+              <div className="space-y-3 py-3">
+                <h1 className="line-clamp-1 text-xl font-bold">Red Kidney Bean</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <section className="container mb-10 py-8"></section>
     </main>
   );

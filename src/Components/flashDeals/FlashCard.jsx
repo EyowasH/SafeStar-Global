@@ -9,6 +9,9 @@ import Various_transformer from "../../assets/Various transformer.jpg";
 import Generater from "../../assets/Generater.jpg";
 import Car_Engine_Oil from "../../assets/Car Engine Oil.webp";
 import Ferro from "../../assets/Ferro.webp";
+import LEROY_Logo from "../../assets/LEROY_Logo.jpg";
+import perkins_logo from "../../assets/perkins_logo.jpg";
+import Altenator from "../../assets/Altenator.png";
 
 const FlashCard = () => {
   const settings = {
@@ -74,7 +77,7 @@ const FlashCard = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-6 py-6 bg-white">
+      {/* <div className="container mx-auto px-6 py-6 bg-white">
         <Slider {...settings} className="bg-white">
           <div className="p-4">
             <div className=" rounded p-2">
@@ -233,6 +236,226 @@ const FlashCard = () => {
             </div>
           </div>
         </Slider>
+      </div> */}
+      <div className="py-6">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4 ">
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={liquid_cargo}
+                alt="No image"
+                className="mx-auto h-[250px] w-full "
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">liquid cargo</h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={Sinotruck}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Sinotruck</h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={Track_Trailer}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Track Trailer</h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden ">
+              <img
+                src={Various_transformer}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">
+                Various transformer
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-6">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 ">
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={perkins_logo}
+                alt="No image"
+                className="mx-auto h-[200px] w-full object-cover"
+              />
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={LEROY_Logo}
+                alt="No image"
+                className="mx-auto h-[200px]  object-cover"
+              />
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src=""
+                alt="No image"
+                className="mx-auto h-[200px] w-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-6">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 ">
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={Generater}
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Generater</h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img src={Altenator} alt="No image" className="mx-auto h-[250px]" />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Alternator</h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src="https://omo-oss-image.thefastimg.com/portal-saas/new2022051210340263147/cms/image/aaea99e4-ccbb-4a7d-bedb-045a9b2e004f.png"
+                alt="No image"
+                className="mx-auto h-[250px] w-full"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">
+                Offerd in Different Sizes
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-6">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 ">
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src="https://lh3.googleusercontent.com/p/AF1QipNzn2D_F__Qi4JH8aCC6XyC6W1DZt-TCe3op2NL=s680-w680-h510"
+                alt="No image"
+                className="mx-auto h-[250px] w-full object-cover"
+              />
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={Car_Engine_Oil}
+                alt="No image"
+                className="mx-auto h-[250px] w-full object-cover"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Car Engine Oil</h1>
+            </div>
+          </div>
+
+          <div
+            id="card"
+            className="p-4 transition-all duration-500 hover:shadow-xl"
+          >
+            <div className="overflow-hidden">
+              <img
+                src={Ferro}
+                alt="No image"
+                className="mx-auto h-[250px] w-full object-cover"
+              />
+            </div>
+
+            <div className="space-y-3 py-3">
+              <h1 className="line-clamp-1 text-xl font-bold">Ferro</h1>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
