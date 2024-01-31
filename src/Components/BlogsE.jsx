@@ -2,21 +2,16 @@ import React, { useEffect } from "react";
 import coffee from "../assets/coffee.jpg";
 import coffee2 from "../assets/coffee2.jpg";
 import coffee3 from "../assets/coffee3.jpg";
-// import sesame from "../assets/sesame.jpg";
 import sesame1 from "../assets/sesame1.jpg";
 import peanuts from "../assets/peanuts.jpg";
 import Green_Mung from "../assets/Green_Mung.jpg";
 import Chickpea1 from "../assets/Chickpea1.webp";
 import Red_Kidney_Bean from "../assets/Red_Kidney_Bean.jpg";
-// import Chickpea from "../assets/Chickpea.jpg";
-// import Kidney_Bean from "../assets/Kidney Bean.jpg";
 import Soybean from "../assets/Soybean.jpg";
-// import Lupin_Bean from "../assets/Lupin Bean.jpg";
-// import Mung_Bean from "../assets/Mung Bean.jpg";
 
 const Blogs = () => {
   return (
-    <main data-aos="fade-up" data-aos-offset="200">
+    <>
       {/* <section className="container mb-10 py-8 ">
         <h1 className="rounded-xl mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold bg-white">
           Export Products{" "}
@@ -314,8 +309,7 @@ const Blogs = () => {
           </div>
         </div>
       </div>
-      <section className="container mb-10 py-8"></section>
-    </main>
+    </>
   );
 };
 

@@ -4,6 +4,7 @@ import Header from "../Header";
 import BannerDetails from "../BannerDetails";
 import CallToAction from "../CallToAction";
 import Footer from "../Footer";
+import BlogsE from "../BlogsE";
 import Soybean from "../../assets/Soybean.jpg";
 import Fire from "../../assets/Fire.jpg";
 import FlashCard from "../flashDeals/FlashCard";
@@ -24,7 +25,6 @@ const Home = ({ blogs }) => {
     <>
       <div className="gradient__bg">
         <Navbar />
-        {/* <Header /> */}
         <Header />
       </div>
       <AboutH />
@@ -47,6 +47,7 @@ const Home = ({ blogs }) => {
           "We provide international markets to local producers and reliable support to importers abroad."
         }
       />
+      <BlogsE />
       <BannerDetails
         reverse={true}
         Text={"Our Import Products"}

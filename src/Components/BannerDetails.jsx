@@ -47,11 +47,6 @@ const BannerDetails = ({
                     <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
                     <p>{Text3}</p>
                   </div>
-                  {/* <Link to={link}>
-                    <button className="rounded-md border-2 border-primary bg-blue-600 px-4 py-2 my-4 text-sm text-white transition-colors duration-300 hover:bg-red-600">
-                      Get Started
-                    </button>
-                  </Link> */}
                 </div>
               </div>
             </div>

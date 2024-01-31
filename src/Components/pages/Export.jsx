@@ -1,5 +1,4 @@
 import React from "react";
-import Blogs from "../BlogsE";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
 
@@ -59,7 +58,6 @@ const Export = () => {
           </div>
         </div>
       </section>
-      <Blogs />
       <div className="gradient__bg">
         <Footer />
       </div>

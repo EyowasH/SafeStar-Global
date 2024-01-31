@@ -12,6 +12,9 @@ import Ferro from "../../assets/Ferro.webp";
 import LEROY_Logo from "../../assets/LEROY_Logo.jpg";
 import perkins_logo from "../../assets/perkins_logo.jpg";
 import Altenator from "../../assets/Altenator.png";
+import perkins1 from "../../assets/perkins2.png";
+import Offerd from "../../assets/Offerd.png";
+import Matusala from "../../assets/Matusala.jpg";
 
 const FlashCard = () => {
   const settings = {
@@ -345,9 +348,9 @@ const FlashCard = () => {
           >
             <div className="overflow-hidden">
               <img
-                src=""
+                src={perkins1}
                 alt="No image"
-                className="mx-auto h-[200px] w-full object-cover"
+                className="mx-auto"
               />
             </div>
           </div>
@@ -392,7 +395,7 @@ const FlashCard = () => {
           >
             <div className="overflow-hidden">
               <img
-                src="https://omo-oss-image.thefastimg.com/portal-saas/new2022051210340263147/cms/image/aaea99e4-ccbb-4a7d-bedb-045a9b2e004f.png"
+                src={Offerd}
                 alt="No image"
                 className="mx-auto h-[250px] w-full"
               />
@@ -415,7 +418,7 @@ const FlashCard = () => {
           >
             <div className="overflow-hidden">
               <img
-                src="https://lh3.googleusercontent.com/p/AF1QipNzn2D_F__Qi4JH8aCC6XyC6W1DZt-TCe3op2NL=s680-w680-h510"
+                src={Matusala}
                 alt="No image"
                 className="mx-auto h-[250px] w-full object-cover"
               />
