@@ -1,12 +1,13 @@
 import React from "react";
-import Fire from "../../assets/Fire.jpg"
+// import Fire from "../../assets/Fire.jpg"
+import Sinotruck from "../../assets/Sinotruckr.png";
 import "./possibility.css";
 
 const Possibility = () => (
   <div className="gpt3__possibility section__padding bg-slate-50" id="possibility">
     <div className="gpt3__possibility-image">
       <img
-        src={Fire}
+        src={Sinotruck}
         alt="possibility"
         className="hidden sm:block"
       />

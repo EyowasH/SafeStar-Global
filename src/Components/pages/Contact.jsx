@@ -154,11 +154,11 @@ const Contact = () => {
                         </span>{" "}
                         :
                         <a
-                          href="mailto:info@yatindustrial.com"
+                          href="mailto:safestarglobalpartner@gmail.com"
                           target="\_blank"
                         >
                           {" "}
-                          emaraim@gmail.com
+                          safestarglobalpartner@gmail.com
                         </a>
                         <br />
                         <span className="text-red-600 mb-1 text-xl font-bold">
