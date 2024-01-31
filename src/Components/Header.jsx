@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Agricultural from "../assets/Agricultural .png";
-import Fire_Pumps from "../assets/FIRE_SAFETY.png";
+import Sinotruck from "../assets/Sinotruckr.png";
 import tools1 from "../assets/tools1.png";
 import Slider from "react-slick";
 
@@ -15,9 +15,9 @@ const ImageList = [
   },
   {
     id: 2,
-    img: Fire_Pumps,
-    title: "Fire Safety Equipment",
-    description: "Peace of mind in a can: Our sleek fire extinguishers stand guard, ready to conquer kitchen chaos and zap electrical emergencies.",
+    img: Sinotruck,
+    title: "Robust Transport",
+    description: "Reliable Truck for all your transportation need Your transportation solution, assuredly reliable.",
   },
   {
     id: 3,

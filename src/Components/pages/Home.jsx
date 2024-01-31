@@ -48,7 +48,7 @@ const Home = ({ blogs }) => {
         }
       />
       <BlogsE />
-      <BannerDetails
+      {/* <BannerDetails
         reverse={true}
         Text={"Our Import Products"}
         img={Fire}
@@ -58,7 +58,7 @@ const Home = ({ blogs }) => {
         Textp={
           "We hope for the best and prepare for the worst. Fire safety equipment is hopefully something you’ll never have to use."
         }
-      />
+      /> */}
       {/* <Features/> */}
       <CallToAction />
       <div className="gradient__bg">
