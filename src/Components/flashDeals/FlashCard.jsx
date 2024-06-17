@@ -66,14 +66,14 @@ const FlashCard = () => {
               <li>-Royal Gold International</li>
             </ul>
             <ul className="text-2xl  flex flex-col gap-3 mt-4">
-              <li>-Sedro</li>
+              <li>-Sedro BY SEIDOR </li>
               <li>-ITTS</li>
               <li>-CBC Media</li>
               <li>-Matusala Construction</li>
             </ul>
             <ul className="text-2xl  flex flex-col gap-3 mt-4">
-              <li>-Boss Oli</li>
-              <li>-Gold Paint</li>
+              <li>-Boss Oil BY BOSS OIL</li>
+              <li>-Gold Paint BY BOSS PAINT</li>
               <li>-Melose Technology Solution LLC</li>
             </ul>
           </div>
